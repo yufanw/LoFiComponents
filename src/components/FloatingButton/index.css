@@ -1,0 +1,54 @@
+.floating-button-comp {
+  background: white;
+  height: 160px;
+  position: relative;
+}
+
+.floating-button-wrapper {
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 20px);
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000;
+  background: white;
+  box-shadow:
+    4px 4px 1px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  background: rgba(238, 176, 176, 0.295);
+  box-shadow:
+    6px 6px 2px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.btn:active {
+  color: rgba(255, 0, 0, 0.5);
+  background: rgba(236, 169, 169, 0.295);
+  transform: translateY(1px);
+  box-shadow:
+    2px 2px 1px #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

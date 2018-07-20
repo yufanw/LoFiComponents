@@ -1,0 +1,58 @@
+.switch-comp {
+  background: white;
+  height: 160px;
+  position: relative;
+}
+
+.switch-wrapper {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px);
+}
+
+.switch {
+  display: block;
+  position: relative;
+ 	width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background: rgba(140, 230, 25, 0.5);
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow:
+    inset 0px 0px 5px #000; 
+  -webkit-box-shadow:
+    inset 0px 0px 5px #000;
+  -moz-box-shadow:
+    inset 0px 0px 5px #000;
+  transition: all 0.4s ease-out;
+}
+
+.switch.off {
+  background: rgba(235, 38, 38, 0.5);
+}
+
+#switch {
+ 	clip: rect(0 0 0 0);
+  position: absolute;
+  visibility: hidden;
+}
+
+.slider {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 53px;
+  box-shadow: 0px 0px 5px #000; 
+  -webkit-box-shadow: 0px 0px 5px #000;
+  -moz-box-shadow: 0px 0px 5px #000;
+  transition: all 0.4s ease-out;
+}
+
+.slider.off {
+  left: 5px;
+} 

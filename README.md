@@ -1,6 +1,6 @@
 # Low Fidelity Components
 
-Small, simple, and hacky react components made by me.
+Small, lightweight, and hacky react components made by me.
 
 [@yufanw](https://github.com/yufanw)
 
