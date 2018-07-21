@@ -8,4 +8,4 @@ Small, lightweight, and hacky React components made by me, [@yufanw](https://git
 
 ### License
 
-See (License)[https://github.com/yufanw/LoFiComponents/blob/master/LICENSE]
+See [License](https://github.com/yufanw/LoFiComponents/blob/master/LICENSE)
