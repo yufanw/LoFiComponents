@@ -6,7 +6,8 @@ import Switch from "./components/Switch";
 
 class App extends Component {
   state = {
-    floatingbutton: 0
+    floatingbutton: 0,
+    toggle: false
   }
 
   handleFloatingButtonClick = () => {
@@ -15,9 +16,30 @@ class App extends Component {
     }));
   }
 
+  handleToggle = () => {
+    this.setState(({toggle}) => ({
+      toggle: !toggle
+    }));
+  }
+
+  toggleIcon = () => {
+    if (this.state.toggle) {
+      return (
+        <div className="shift">
+          <ion-icon name="moon"></ion-icon>
+        </div>
+      );
+    }
+    return (
+      <div className="shift">
+        <ion-icon name="sunny"></ion-icon>
+      </div>
+    );
+  }
+
   render() {
     return ( 
-      <div className="App">
+      <div className={this.state.toggle ? "App dark" : "App"}>
         <h1>LoFi Components</h1>
         <div className="app-wrapper">
 
@@ -27,20 +49,35 @@ class App extends Component {
               score={this.state.floatingbutton}
             />
             <FloatingButton 
+              count={this.state.floatingbutton}
               onClick={this.handleFloatingButtonClick}
             />
           </div>
 
           <div className="comp">
-            <Switch />
+            <ScoreBox 
+              icon={this.toggleIcon()}
+            />
+            <Switch 
+              on={this.state.toggle}
+              toggle={this.handleToggle}
+            />
           </div>
 
-          <div className="comp"></div>
-          <div className="comp"></div>
-          <div className="comp"></div>
-          <div className="comp"></div>
-          <div className="comp"></div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
+          <div className="comp">COMING SOON</div>
         </div>
+        <footer>
+          <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
+          <a href="https://github.com/yufanw/LoFiComponents"> Source Code</a>
+          <a href="mailto:yufansmail@gmail.com"> Contact</a>
+        </footer>
       </div>
     );
   }

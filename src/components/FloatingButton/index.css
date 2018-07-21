@@ -1,8 +1,3 @@
-.floating-button-comp {
-  background: white;
-  height: 160px;
-  position: relative;
-}
 
 .floating-button-wrapper {
   position: absolute;
@@ -19,36 +14,48 @@
   text-decoration: none;
   border-radius: 5px;
   box-sizing: border-box;
-  color: #000;
-  background: white;
+  color: inherit;
+  background: inherit;
   box-shadow:
-    4px 4px 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    4px 4px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -webkit-box-shadow:
+    4px 4px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -moz-box-shadow:
+    4px 4px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
   font-weight: bold;
-  transition: all 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
 }
 
 .btn:hover {
   background: rgba(238, 176, 176, 0.295);
   box-shadow:
-    6px 6px 2px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    6px 6px 2px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
 }
 
 .btn:active {
-  color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 53, 53, 0.5);
   background: rgba(236, 169, 169, 0.295);
   transform: translateY(1px);
   box-shadow:
-    2px 2px 1px #000,
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    2px 2px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
 }

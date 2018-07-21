@@ -1,18 +1,23 @@
 .scorebox-comp {
   box-sizing: border-box;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   z-index: 20000;
 }
 
 .scorebox-wrapper {
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-gap: 0.2em;
+  grid-gap: 0.1em;
 }
+
+.icon .shift {
+  transition: all 0.3s linear;
+}
+
 
 .score {
   overflow: auto;
-  transition: all 0.3s ease-out;
+  line-height: 1.1em;
 }

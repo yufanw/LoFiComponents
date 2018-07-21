@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types';
 import './index.css';
 
 export default class Switch extends Component {
-  state = {
+  static propTypes = {
+    toggle: PropTypes.func,
+    on: PropTypes.bool
+  }
+  static defaultProps = {
     on: false
+  }
+  state = {
+    on: this.props.on
   }
 
   toggle = () => {
     this.setState(({on}) => ({
       on: !on
-    }));
+    }), this.props.toggle);
   }
 
   render() {

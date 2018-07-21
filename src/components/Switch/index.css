@@ -1,9 +1,3 @@
-.switch-comp {
-  background: white;
-  height: 160px;
-  position: relative;
-}
-
 .switch-wrapper {
   position: absolute;
   top: calc(50% - 20px);
@@ -16,20 +10,32 @@
  	width: 100px;
   height: 50px;
   border-radius: 50px;
-  background: rgba(140, 230, 25, 0.5);
-  border: 1px solid rgb(0, 0, 0);
+  background: rgba(99, 117, 216, 0.5);
+  border: 1px solid;
   cursor: pointer;
   box-shadow:
-    inset 0px 0px 5px #000; 
+    inset 0px 0px 2px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
   -webkit-box-shadow:
-    inset 0px 0px 5px #000;
+    inset 0px 0px 2px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
   -moz-box-shadow:
-    inset 0px 0px 5px #000;
-  transition: all 0.4s ease-out;
+    inset 0px 0px 2px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  transition: background 0.4s ease-out;
 }
 
 .switch.off {
-  background: rgba(235, 38, 38, 0.5);
+  background: rgba(67, 143, 206, 0.5);
 }
 
 #switch {
