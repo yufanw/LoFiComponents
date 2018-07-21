@@ -2,9 +2,13 @@
 
 Small, lightweight, and hacky React components made by me, [@yufanw](https://github.com/yufanw).
 
+### Getting Started
 
-## [Live Components](https://yufanw.github.io/LoFiComponents/)
+#### [Live Component Demo](https://yufanw.github.io/LoFiComponents)
 
+#### Development:
+`npm install`
+`npm start`
 
 ### License
 
