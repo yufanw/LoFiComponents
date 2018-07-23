@@ -26,21 +26,22 @@ html {
 h1 {
   margin: 0;
   padding: 25px;
+  -webkit-text-stroke: 1px black;
   color: white;
   text-shadow:
-    1px 1px 1px #000,
+    1px 1px 0px #000,
     -1px -1px 1px #000,  
     1px -1px 1px #000,
     -1px 1px 1px #000,
     1px 1px 1px #000;
   -webkit-text-shadow:
-    1px 1px 1px #000,
+    1px 1px 0px #000,
     -1px -1px 1px #000,  
     1px -1px 1px #000,
     -1px 1px 1px #000,
     1px 1px 1px #000;
   -moz-text-shadow:
-    1px 1px 1px #000,
+    1px 1px 0px #000,
     -1px -1px 1px #000,  
     1px -1px 1px #000,
     -1px 1px 1px #000,
