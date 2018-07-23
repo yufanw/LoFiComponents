@@ -40,7 +40,7 @@ class App extends Component {
   render() {
     return ( 
       <div className={this.state.toggle ? "App dark" : "App"}>
-        <h1>LoFi Components v0.1.2</h1>
+        <h1>LoFi Components</h1>
         <div className="app-wrapper">
 
           <div className="comp">
@@ -75,6 +75,7 @@ class App extends Component {
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
+          <h5>v0.1.3</h5>
           <a href="https://github.com/yufanw/LoFiComponents"> Source Code</a>
           <a href="mailto:yufansmail@gmail.com"> Contact</a>
         </footer>
