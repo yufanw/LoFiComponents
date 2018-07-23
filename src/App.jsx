@@ -81,9 +81,6 @@ class App extends Component {
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
-          <div className="comp">COMING SOON</div>
-          <div className="comp">COMING SOON</div>
-          <div className="comp">COMING SOON</div>
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
