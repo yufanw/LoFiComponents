@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 html {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ html {
   color: black;
   min-height: 768px;
   min-width: 470px;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -35,6 +35,18 @@ h1 {
     0.5px -0.5px 0,
     -0.5px 0.5px 0.5px,
     0.5px 0.5px 0;
+  -webkit-text-shadow:
+    0.5px 0.5px 0px,
+    -0.5px -0.5px 0.5px,  
+    0.5px -0.5px 0,
+    -0.5px 0.5px 0.5px,
+    0.5px 0.5px 0;
+  -moz-text-shadow:
+    0.5px 0.5px 0px,
+    -0.5px -0.5px 0.5px,  
+    0.5px -0.5px 0,
+    -0.5px 0.5px 0.5px,
+    0.5px 0.5px 0;
 }
 
 .app-wrapper {
@@ -49,8 +61,21 @@ h1 {
   height: 200px;
   position: relative;
   color: inherit;
+  border-color: inherit;
   min-height: 200px;
   box-shadow:
+  2px 2px 1px,
+  -1px -1px 0,  
+  1px -1px 0,
+  -1px 1px 0,
+  1px 1px 0;
+  -webkit-box-shadow:
+  2px 2px 1px,
+  -1px -1px 0,  
+  1px -1px 0,
+  -1px 1px 0,
+  1px 1px 0;
+  -moz-box-shadow:
   2px 2px 1px,
   -1px -1px 0,  
   1px -1px 0,

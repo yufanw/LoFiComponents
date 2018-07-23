@@ -16,15 +16,21 @@ export default class FloatingButton extends Component {
 
   handleClick = () => {
     this.setState(({count}) => ({
-      count: count + 1
+      count: count + 1,
+      clicked: true
     }), this.props.onClick);
+    setTimeout(() => {
+      this.setState({
+        clicked: false
+      });
+    }, 300);
   }
-  
+
   render() {
     return (
       <div className="floating-button-comp">
         <div className="floating-button-wrapper">
-          <a className="btn"
+          <a className={this.state.clicked ? "btn active" : "btn"}
             href="#0w0"
             onClick={this.handleClick}>
             <ion-icon name="heart"></ion-icon>
