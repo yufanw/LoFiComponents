@@ -69,12 +69,13 @@ class App extends Component {
           </div>
 
           <div className="comp">
+            COMING SOON
             Follow Work
-            <h2>
-              <a className={this.state.rainbowClass} href="https://github.com/yufanw/LoFiComponents">
+            <h1>
+              <a href="https://github.com/yufanw/LoFiComponents">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
-            </h2>
+            </h1>
           </div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
@@ -86,7 +87,7 @@ class App extends Component {
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
-          <h5>v0.1.6</h5>
+          <h5>v0.1.7</h5>
           <a href="https://github.com/yufanw/LoFiComponents"> Source Code</a>
           <a href="mailto:yufansmail@gmail.com"> Contact</a>
         </footer>
