@@ -26,27 +26,25 @@ html {
 h1 {
   margin: 0;
   padding: 20px;
-  -webkit-text-stroke: 0.5px black;
-  -webkit-text-fill-color: white;
-  color: inherit;
+  color: white;
   text-shadow:
-    0.5px 0.5px 0px,
-    -0.5px -0.5px 0.5px,  
-    0.5px -0.5px 0,
-    -0.5px 0.5px 0.5px,
-    0.5px 0.5px 0;
+    0.5px 0.5px 0.5px #000,
+    -0.5px -0.5px 0.5px #000,  
+    0.5px -0.5px 0.5px #000,
+    -0.5px 0.5px 0.5px #000,
+    0.5px 0.5px 0.5px #000;
   -webkit-text-shadow:
-    0.5px 0.5px 0px,
-    -0.5px -0.5px 0.5px,  
-    0.5px -0.5px 0,
-    -0.5px 0.5px 0.5px,
-    0.5px 0.5px 0;
+    0.5px 0.5px 0.5px #000,
+    -0.5px -0.5px 0.5px #000,  
+    0.5px -0.5px 0.5px #000,
+    -0.5px 0.5px 0.5px #000,
+    0.5px 0.5px 0.5px #000;
   -moz-text-shadow:
-    0.5px 0.5px 0px,
-    -0.5px -0.5px 0.5px,  
-    0.5px -0.5px 0,
-    -0.5px 0.5px 0.5px,
-    0.5px 0.5px 0;
+    0.5px 0.5px 0.5px #000,
+    -0.5px -0.5px 0.5px #000,  
+    0.5px -0.5px 0.5px #000,
+    -0.5px 0.5px 0.5px #000,
+    0.5px 0.5px 0.5px #000;
 }
 
 .app-wrapper {
