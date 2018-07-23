@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LoFi Components",
+  "name": "Simple stylish components built in React and pure CSS",
   "icons": [
     {
       "src": "favicon.ico",
