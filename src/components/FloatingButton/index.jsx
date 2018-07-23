@@ -23,7 +23,7 @@ export default class FloatingButton extends Component {
       this.setState({
         clicked: false
       });
-    }, 280);
+    }, 40);
   }
 
   render() {

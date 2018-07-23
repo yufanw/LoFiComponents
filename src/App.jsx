@@ -7,12 +7,14 @@ import Switch from "./components/Switch";
 class App extends Component {
   state = {
     floatingbutton: 0,
-    toggle: false
+    toggle: false,
+    rainbowClass: ""
   }
 
   handleFloatingButtonClick = () => {
     this.setState(({floatingbutton}) => ({
-      floatingbutton: floatingbutton + 1
+      floatingbutton: floatingbutton + 1,
+      rainbowClass: `rainbow${String(String(floatingbutton + 1)[String(floatingbutton + 1).length - 1])}`
     }));
   }
 
@@ -44,10 +46,12 @@ class App extends Component {
         <div className="app-wrapper">
 
           <div className="comp">
-            <ScoreBox
-              icon={<ion-icon name="heart"></ion-icon>}
-              score={this.state.floatingbutton}
-            />
+            <div className={this.state.rainbowClass}>
+              <ScoreBox
+                icon={<ion-icon name="heart"></ion-icon>}
+                score={this.state.floatingbutton}
+              />
+            </div>
             <FloatingButton 
               count={this.state.floatingbutton}
               onClick={this.handleFloatingButtonClick}
@@ -64,7 +68,14 @@ class App extends Component {
             />
           </div>
 
-          <div className="comp">COMING SOON</div>
+          <div className="comp">
+            Follow Work
+            <h2>
+              <a className={this.state.rainbowClass} href="https://github.com/yufanw/LoFiComponents">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </h2>
+          </div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
@@ -75,7 +86,7 @@ class App extends Component {
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
-          <h5>v0.1.5</h5>
+          <h5>v0.1.6</h5>
           <a href="https://github.com/yufanw/LoFiComponents"> Source Code</a>
           <a href="mailto:yufansmail@gmail.com"> Contact</a>
         </footer>

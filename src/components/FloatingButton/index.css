@@ -49,8 +49,8 @@
 }
 
 .btn.active, .btn:active {
-  color: rgba(255, 53, 53, 0.5);
-  background: rgba(236, 169, 169, 0.295);
+  color: rgba(221, 84, 84, 0.5);
+  background: rgba(236, 169, 169, 0.3);
   transform: translateY(1px);
   box-shadow:
     2px 2px 1px,

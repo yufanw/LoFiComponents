@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-
-html {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
 .App {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -47,6 +40,10 @@ h1 {
     1px 1px 1px #000;
 }
 
+h2 a:hover {
+  color: rgb(204, 121, 95);
+}
+
 .app-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
@@ -81,6 +78,47 @@ h1 {
   1px 1px 0;
 }
 
+.rainbow0 {
+  color: rgb(255, 32, 107);
+
+}
+
+.rainbow1 {
+  color: rgb(250, 96, 96);
+}
+
+.rainbow2 {
+  color: rgb(204, 121, 95);
+}
+
+.rainbow3 {
+  color: rgb(158, 160, 18);
+}
+
+.rainbow4 {
+  color: rgb(33, 151, 59);
+}
+
+.rainbow5 {
+  color: rgba(29, 167, 156);
+}
+
+.rainbow6 {
+  color: rgb(106, 134, 158);
+}
+
+.rainbow7 {
+  color: rgb(136, 123, 197);
+}
+
+.rainbow8 {
+  color: rgb(147, 111, 155);
+}
+
+.rainbow9 {
+  color: rgb(167, 120, 134);
+}
+
 h3, h5 {
   line-height: 0;
   margin: 0.6em;
@@ -101,3 +139,5 @@ footer a {
 footer a:hover {
   color: rgb(204, 154, 97);
 }
+
+
