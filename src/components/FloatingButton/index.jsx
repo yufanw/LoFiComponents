@@ -33,7 +33,7 @@ export default class FloatingButton extends Component {
           <a className={this.state.clicked ? "btn active" : "btn"}
             href="#0w0"
             onClick={this.handleClick}>
-            <ion-icon name="heart"></ion-icon>
+            <i className="icon ion-ios-heart"></i>
           </a>
         </div>
       </div>

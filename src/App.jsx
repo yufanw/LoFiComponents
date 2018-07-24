@@ -28,13 +28,13 @@ class App extends Component {
     if (this.state.toggle) {
       return (
         <div className="shift">
-          <ion-icon name="moon"></ion-icon>
+          <i className="icon ion-ios-moon"></i>
         </div>
       );
     }
     return (
       <div className="shift">
-        <ion-icon name="sunny"></ion-icon>
+        <i className="icon ion-ios-sunny"></i>
       </div>
     );
   }
@@ -48,7 +48,7 @@ class App extends Component {
           <div className="comp">
             <div className={this.state.rainbowClass}>
               <ScoreBox
-                icon={<ion-icon name="heart"></ion-icon>}
+                icon={<i className="icon ion-ios-heart"></i>}
                 score={this.state.floatingbutton}
               />
             </div>
@@ -70,12 +70,10 @@ class App extends Component {
 
           <div className="comp">
             COMING SOON
-            Follow Work
-            <h1>
-              <a href="https://github.com/yufanw/LoFiComponents">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </h1>
+            <a href="https://github.com/yufanw/LoFiComponents">
+              Follow Work on Github
+              <i className="icon ion-logo-github github"></i>
+            </a>
           </div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
@@ -83,10 +81,10 @@ class App extends Component {
           <div className="comp">COMING SOON</div>
         </div>
         <footer>
-          <h3><a href="https://github.com/yufanw"> Yufan Wang</a></h3>
+          <h3><a href="https://github.com/yufanw">Yufan Wang</a></h3>
           <h5>v0.1.7</h5>
-          <a href="https://github.com/yufanw/LoFiComponents"> Source Code</a>
-          <a href="mailto:yufansmail@gmail.com"> Contact</a>
+          <a href="https://github.com/yufanw/LoFiComponents">Source Code</a>
+          <a href="mailto:yufansmail@gmail.com">Contact</a>
         </footer>
       </div>
     );

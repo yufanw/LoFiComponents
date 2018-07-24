@@ -40,12 +40,19 @@ h1 {
     1px 1px 1px #000;
 }
 
-h1 a {
-  color: rgb(161, 99, 80);
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(112, 167, 184);
 }
 
-h1 a:hover {
-  color: rgb(204, 121, 95);
+a:hover {
+  color: rgb(192, 130, 50);
+}
+
+.github {
+  display: block;
+  font-size: 58px;
 }
 
 .app-wrapper {
