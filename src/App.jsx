@@ -3,6 +3,7 @@ import "./App.css";
 import FloatingButton from "./components/FloatingButton";
 import ScoreBox from "./components/ScoreBox";
 import Switch from "./components/Switch";
+import Checkbox from "./components/Checkbox";
 
 class App extends Component {
   state = {
@@ -69,6 +70,12 @@ class App extends Component {
           </div>
 
           <div className="comp">
+
+            <Checkbox />
+
+          </div>
+
+          <div className="comp">
             COMING SOON
             <a href="https://github.com/yufanw/LoFiComponents">
               Follow Work on Github
@@ -78,11 +85,10 @@ class App extends Component {
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
           <div className="comp">COMING SOON</div>
-          <div className="comp">COMING SOON</div>
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw">Yufan Wang</a></h3>
-          <h5>v0.1.7</h5>
+          <h5>v0.1.8</h5>
           <a href="https://github.com/yufanw/LoFiComponents">Source Code</a>
           <a href="mailto:yufansmail@gmail.com">Contact</a>
         </footer>

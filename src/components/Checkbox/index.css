@@ -1,0 +1,77 @@
+.checkbox-comp {
+  margin-top: 20%;
+}
+
+.checkbox-wrapper {
+  display: grid;
+  grid-template-rows: 40px 40px 40px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark, .checkmark2, .checkmark3  {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 12.5px);
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+
+.container:hover input ~ .checkmark.red {
+  background-color: rgba(230, 94, 94, 0.45);
+}
+
+.container:hover input ~ .checkmark.yellow {
+  background-color: rgba(226, 203, 71, 0.45);
+}
+
+.container:hover input ~ .checkmark.green {
+  background-color: rgba(71, 231, 71, 0.45);
+}
+
+.container input:checked ~ .checkmark.red {
+  background-color: rgb(230, 94, 94);
+}
+
+.container input:checked ~ .checkmark.yellow {
+  background-color: rgb(226, 203, 71);
+}
+
+.container input:checked ~ .checkmark.green {
+  background-color: rgb(71, 231, 71);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
