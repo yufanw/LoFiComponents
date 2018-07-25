@@ -70,9 +70,10 @@ class App extends Component {
           </div>
 
           <div className="comp">
-
+            <ScoreBox
+              score={"BETA"}
+            />
             <Checkbox />
-
           </div>
 
           <div className="comp">

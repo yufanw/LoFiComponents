@@ -1,10 +1,30 @@
 .checkbox-comp {
-  margin-top: 20%;
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 25px);
 }
 
 .checkbox-wrapper {
   display: grid;
-  grid-template-rows: 40px 40px 40px;
+  grid-template-rows: 50px 50px 50px;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 0.5em;
+  box-shadow:
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -webkit-box-shadow:
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -moz-box-shadow:
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
 }
 
 .container {
@@ -12,6 +32,8 @@
   position: relative;
   cursor: pointer;
   font-size: 22px;
+  height: 100%;
+  background-color: inherit;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -25,7 +47,7 @@
 
 .checkmark, .checkmark2, .checkmark3  {
   position: absolute;
-  top: 0;
+  top: calc(50% - 12.5px);
   left: calc(50% - 12.5px);
   height: 25px;
   width: 25px;
@@ -39,7 +61,7 @@
 }
 
 .container:hover input ~ .checkmark.yellow {
-  background-color: rgba(226, 203, 71, 0.45);
+  background-color: rgba(224, 198, 51, 0.45);
 }
 
 .container:hover input ~ .checkmark.green {
@@ -51,7 +73,7 @@
 }
 
 .container input:checked ~ .checkmark.yellow {
-  background-color: rgb(226, 203, 71);
+  background-color: rgb(224, 198, 51);
 }
 
 .container input:checked ~ .checkmark.green {
@@ -74,4 +96,17 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
+}
+
+.half-circle {
+  position: absolute;
+  left: calc(50% - 13px);
+  top: calc(50% - 15px);
+  width: 27px;
+  height: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border: 0.5px solid;
+  box-sizing: border-box;
+  z-index: 300;
 }
