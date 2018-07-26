@@ -84,7 +84,6 @@ a:hover {
 }
 
 .App.dark .comp {
-  border-collapse: separate;
   box-shadow:
   0 0 4px 1px rgba(0, 0, 0, .02), 
   0 3px 24px rgba(0, 0, 0, 0.7);
