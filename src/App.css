@@ -13,7 +13,7 @@
 }
 
 .App.dark {
-  background: rgb(34, 34, 41);
+  background: #1b1b1d;
   color: rgb(255, 255, 255);
 }
 
@@ -73,27 +73,27 @@ a:hover {
   min-height: 200px;
   border-collapse: separate;
   box-shadow:
-  0 0 4px 1px rgba(0,0,0,.03), 
-  0 3px 24px rgba(48,51,51,.1);
+  0 0 4px 1px rgba(0, 0, 0, .03), 
+  0 3px 24px rgba(48, 51, 49, 0.2);
   -webkit-box-shadow:
-  0 0 4px 1px rgba(0,0,0,.03), 
-  0 3px 24px rgba(48,51,51,.1);
+  0 0 4px 1px rgba(0, 0, 0, .03), 
+  0 3px 24px rgba(48, 51, 49, 0.2);
   -moz-box-shadow:
-  0 0 4px 1px rgba(0,0,0,.03), 
-  0 3px 24px rgba(48,51,51,.1);
+  0 0 4px 1px rgba(0, 0, 0, .03), 
+  0 3px 24px rgba(48, 51, 49, 0.2);
 }
 
 .App.dark .comp {
   border-collapse: separate;
   box-shadow:
-  0 0 4px 1px rgba(255, 255, 255, 0.03), 
-  0 3px 24px rgba(199, 212, 212, 0.1);
+  0 0 4px 1px rgba(0, 0, 0, .02), 
+  0 3px 24px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow:
-  0 0 4px 1px rgba(255, 255, 255, 0.03), 
-  0 3px 24px rgba(199, 212, 212, 0.1);
+  0 0 4px 1px rgba(0, 0,0,.02), 
+  0 3px 24px rgba(0, 0, 0, 0.7);
   -moz-box-shadow:
-  0 0 4px 1px rgba(255, 255, 255, 0.03), 
-  0 3px 24px rgba(199, 212, 212, 0.1);
+  0 0 4px 1px rgba(0, 0, 0, .02), 
+  0 3px 24px rgba(0, 0, 0, 0.7);
 }
 
 .rainbow0 {
