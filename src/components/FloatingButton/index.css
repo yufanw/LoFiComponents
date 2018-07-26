@@ -39,7 +39,7 @@
 }
 
 .btn:hover {
-  background: rgba(238, 176, 176, 0.295);
+  background: rgba(233, 203, 203, 0.1);
   box-shadow:
     6px 6px 2px,
     -1px -1px 0,  

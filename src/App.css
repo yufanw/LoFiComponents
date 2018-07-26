@@ -4,7 +4,7 @@
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
   background: white;
-  color: black;
+  color: rgba(0, 0, 0);
   min-height: 768px;
   min-width: 360px;
   min-height: 100vh;
@@ -13,7 +13,7 @@
 
 .App.dark {
   background: rgb(34, 34, 41);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -70,28 +70,30 @@ a:hover {
   border-color: inherit;
   min-height: 200px;
   box-shadow:
-  2px 2px 1px,
-  -1px -1px 0,  
-  1px -1px 0,
-  -1px 1px 0,
-  1px 1px 0;
+  0 0 4px 1px rgba(0,0,0,.03), 
+  0 3px 24px rgba(48,51,51,.1);
   -webkit-box-shadow:
-  2px 2px 1px,
-  -1px -1px 0,  
-  1px -1px 0,
-  -1px 1px 0,
-  1px 1px 0;
+  0 0 4px 1px rgba(0,0,0,.03), 
+  0 3px 24px rgba(48,51,51,.1);
   -moz-box-shadow:
-  2px 2px 1px,
-  -1px -1px 0,  
-  1px -1px 0,
-  -1px 1px 0,
-  1px 1px 0;
+  0 0 4px 1px rgba(0,0,0,.03), 
+  0 3px 24px rgba(48,51,51,.1);
+}
+
+.App.dark .comp {
+  box-shadow:
+  0 0 4px 1px rgba(255, 255, 255, 0.03), 
+  0 3px 24px rgba(199, 212, 212, 0.1);
+  -webkit-box-shadow:
+  0 0 4px 1px rgba(255, 255, 255, 0.03), 
+  0 3px 24px rgba(199, 212, 212, 0.1);
+  -moz-box-shadow:
+  0 0 4px 1px rgba(255, 255, 255, 0.03), 
+  0 3px 24px rgba(199, 212, 212, 0.1);
 }
 
 .rainbow0 {
   color: rgb(255, 32, 107);
-
 }
 
 .rainbow1 {
