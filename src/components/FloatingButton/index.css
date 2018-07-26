@@ -16,6 +16,32 @@
   box-sizing: border-box;
   color: inherit;
   background: inherit;
+  border-collapse: separate;
+  box-shadow:
+    3px 3px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -webkit-box-shadow:
+    3px 3px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -moz-box-shadow:
+    3px 3px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  color: rgba(255, 123, 123, 0.5);
+  border-collapse: separate;
   box-shadow:
     4px 4px 1px,
     -1px -1px 0,  
@@ -34,25 +60,25 @@
     1px -1px 0,
     -1px 1px 0,
     1px 1px 0;
-  font-weight: bold;
-  transition: box-shadow 0.3s ease-out;
 }
 
-.btn:hover {
-  background: rgba(233, 203, 203, 0.1);
+.btn:active {
+  color: rgb(255, 126, 126);
+  transform: translateY(1px);
+  border-collapse: separate;
   box-shadow:
-    6px 6px 2px,
+    2px 2px 1px,
     -1px -1px 0,  
     1px -1px 0,
     -1px 1px 0,
     1px 1px 0;
-}
-
-.btn:active {
-  color: rgba(221, 114, 114, 0.5);
-  background: rgba(236, 169, 169, 0.3);
-  transform: translateY(1px);
-  box-shadow:
+  -webkit-box-shadow:
+    2px 2px 1px,
+    -1px -1px 0,  
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+  -moz-box-shadow:
     2px 2px 1px,
     -1px -1px 0,  
     1px -1px 0,
@@ -63,7 +89,20 @@
 @media only screen and (max-width:768px) {
   .btn:active {
     transform: none;
+    border-collapse: separate;
     box-shadow:
+      1px 1px 1px,
+      -1px -1px 0,  
+      1px -1px 0,
+      -1px 1px 0,
+      1px 1px 0;
+    -webkit-box-shadow:
+      1px 1px 1px,
+      -1px -1px 0,  
+      1px -1px 0,
+      -1px 1px 0,
+      1px 1px 0;
+    -moz-box-shadow:
       1px 1px 1px,
       -1px -1px 0,  
       1px -1px 0,
@@ -71,10 +110,22 @@
       1px 1px 0;
   }
   .btn.active {
-    color: rgba(221, 114, 114, 0.5);
-    background: rgba(236, 169, 169, 0.3);
+    color: rgb(255, 126, 126);
     transform: translateY(1px);
+    border-collapse: separate;
     box-shadow:
+      2px 2px 1px,
+      -1px -1px 0,  
+      1px -1px 0,
+      -1px 1px 0,
+      1px 1px 0;
+    -webkit-box-shadow:
+      2px 2px 1px,
+      -1px -1px 0,  
+      1px -1px 0,
+      -1px 1px 0,
+      1px 1px 0;
+    -moz-box-shadow:
       2px 2px 1px,
       -1px -1px 0,  
       1px -1px 0,

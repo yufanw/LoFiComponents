@@ -10,6 +10,7 @@
   width: 50px;
   border: 1px solid;
   border-radius: 0.5em;
+  border-collapse: separate;
   box-shadow:
     -1px -1px 0,  
     1px -1px 0,

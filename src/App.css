@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 .App {
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   background: white;
   color: rgba(0, 0, 0);
@@ -20,6 +21,7 @@ h1 {
   margin: 0;
   padding: 25px;
   color: white;
+  font-family: 'Work Sans', sans-serif;
   text-shadow:
     1px 1px 0px #000,
     -1px -1px 1px #000,  
@@ -69,6 +71,7 @@ a:hover {
   color: inherit;
   border-color: inherit;
   min-height: 200px;
+  border-collapse: separate;
   box-shadow:
   0 0 4px 1px rgba(0,0,0,.03), 
   0 3px 24px rgba(48,51,51,.1);
@@ -81,6 +84,7 @@ a:hover {
 }
 
 .App.dark .comp {
+  border-collapse: separate;
   box-shadow:
   0 0 4px 1px rgba(255, 255, 255, 0.03), 
   0 3px 24px rgba(199, 212, 212, 0.1);
