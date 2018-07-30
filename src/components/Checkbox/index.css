@@ -46,7 +46,7 @@
   opacity: 0;
 }
 
-.checkmark, .checkmark2, .checkmark3  {
+.checkmark  {
   position: absolute;
   top: calc(50% - 12.5px);
   left: calc(50% - 12.5px);
@@ -57,16 +57,20 @@
   transition: all 0.3s ease-out;
 }
 
-.container:hover input ~ .checkmark.red {
-  background-color: rgba(230, 94, 94, 0.45);
+.checkmark.red {
+  background-color: rgba(230, 94, 94, 0.25);
 }
 
-.container:hover input ~ .checkmark.yellow {
-  background-color: rgba(224, 198, 51, 0.45);
+.checkmark.yellow {
+  background-color: rgba(224, 198, 51, 0.25);
 }
 
-.container:hover input ~ .checkmark.green {
-  background-color: rgba(71, 231, 71, 0.45);
+.checkmark.green {
+  background-color: rgba(71, 231, 71, 0.25);
+}
+
+.container input:hover ~ .checkmark {
+  background-color: rgba(132, 130, 148, 0.45);
 }
 
 .container input:checked ~ .checkmark.red {
@@ -105,9 +109,14 @@
   top: calc(50% - 15px);
   width: 27px;
   height: 12px;
+  background: rgb(255, 255, 255);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border: 0.5px solid;
   box-sizing: border-box;
   z-index: 300;
+}
+
+.App.dark .half-circle {
+  background: #1b1b1d;
 }
