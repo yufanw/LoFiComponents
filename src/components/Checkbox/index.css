@@ -54,7 +54,7 @@
   width: 25px;
   background-color: #eee;
   border-radius: 50%;
-  transition: all 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 .checkmark.red {
@@ -70,7 +70,7 @@
 }
 
 .container input:hover ~ .checkmark {
-  background-color: rgba(132, 130, 148, 0.45);
+  background-color: rgba(94, 94, 117, 0.5);
 }
 
 .container input:checked ~ .checkmark.red {
