@@ -45,6 +45,7 @@ h1 {
 a {
   display: block;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
   color: rgb(112, 167, 184);
 }
 

@@ -34,6 +34,7 @@
   cursor: pointer;
   font-size: 22px;
   height: 100%;
+  -webkit-tap-highlight-color: transparent;
   background-color: inherit;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -44,6 +45,7 @@
 .container input {
   position: absolute;
   opacity: 0;
+  pointer-events: none;
 }
 
 .checkmark  {

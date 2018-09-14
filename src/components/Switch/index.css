@@ -11,6 +11,7 @@
   height: 50px;
   border-radius: 50px;
   background: rgba(132, 84, 223, 0.5);
+  -webkit-tap-highlight-color: transparent;
   border: 1px solid;
   cursor: pointer;
   border-collapse: separate;
