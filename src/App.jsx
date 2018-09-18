@@ -86,7 +86,7 @@ class App extends Component {
         </div>
         <footer>
           <h3><a href="https://github.com/yufanw">Yufan Wang</a></h3>
-          <h5>v0.2.5</h5>
+          <h5>v0.2.6</h5>
           <a href="https://github.com/yufanw/LoFiComponents">Source Code</a>
           <a href="mailto:yufansmail@gmail.com">Contact</a>
         </footer>
