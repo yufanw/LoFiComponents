@@ -84,6 +84,10 @@ a:hover {
   0 3px 24px rgba(48, 51, 49, 0.2);
 }
 
+.comp.info a {
+  padding-top: 20%;
+}
+
 .App.dark .comp {
   box-shadow:
   0 0 4px 1px rgba(0, 0, 0, .02), 
